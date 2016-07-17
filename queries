@@ -1,0 +1,62 @@
+	db.carts.insert([
+		{
+	         "name": "Central Park Food Cart",
+	         "address": "Southern entrance to Hecksher Playground",
+			 "current_activity": "1",
+	         "description": "",
+	         "permit_number": "M10-W61-HP-C",
+	         "phone": "",
+	         "website": "",
+			 "userId": "",
+	         "type_name": "Food Cart",
+			 "rating": "4",
+			 "loc": {
+			 	"type":["40.750778", "-74.005010"],
+			 	"index":"2d"
+			 }
+		},
+		{
+			 "name": "Pelham Bay Park Food Cart",
+	         "address": "Outside playground #1, at Middleton Road",
+
+			 "current_activity": "1",
+	         "description": "",
+	         "permit_number": "X39-1-C",
+	         "phone": "",
+			 "website": "",
+			 "userId": "",
+	         "type_name": "Food Cart",
+			 "rating": "5",
+			 "loc": {"type":["40.751250", "-74.006174"],"index":'2d'}
+		},
+		{
+			 "name": "St. James Park Food Cart",
+	         "address": "Jerome Ave. between E. 191st Street and E. 193rd Street",
+			 "current_activity": "1",
+	         "description": "",
+	         "permit_number": "X39-1-C",
+	         "phone": "",
+			 "website": "",
+			 "userId": "",
+	         "type_name": "Food Cart",
+			 "rating": "5",
+			 "loc": {"type":["40.751052", "-74.004650"],"index":'2d'}
+		}
+      ])
+
+
+
+	db.users.insert([
+		{
+	         "firstname": "Puneet",
+			 "lastname": "chugh",
+			 "fbid": 10202198672983555
+
+		},
+		{
+	         "firstname": "Rahul Ramesh",
+			 "lastname": "kumar",
+			 "fbid": 10152812506302422
+
+		},
+      ])
